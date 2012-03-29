@@ -55,7 +55,7 @@ mrouter.map(function () {
 	    this.root.bind(function (req, res) { res.send("Welcome to: "+settings.myapp) });
 	    
 	    /**
-	     * Hanlde _GET
+	     * Handle _GET
 	     */
 	    
 	    // just /database
