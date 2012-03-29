@@ -50,7 +50,7 @@ mrouter.map(function () {
 
 
 		/**
-		 * Say Welcome to the user or dispay eany other info
+		 * Say Welcome to the user or dispay any other info
 		 */
 	    this.root.bind(function (req, res) { res.send("Welcome to: "+settings.myapp) });
 	    
